@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in to my site</title>
+    <link rel="stylesheet" href="./assets/css/account.css">
+    <script type="module" src="./assets/js/firebase/firebase-login.js"></script>
+</head>
+
+<body>
+
+    <form action="#" id="form">
+        <h1 class="form-title">Login Page</h1>
+        <label for="email" class="label">Email</label>
+        <input type="email" name="" id="email" placeholder="Enter your email" required>
+        <label for="password" class="label">Password</label>
+        <input type="password" name="" id="password" placeholder="Enter your password" required>
+        <button type="submit" id="submit-btn">Login</button>
+        <div class="or">Or</div>
+        <div class="providers">
+            <div class="item" id="google-login">
+                <img src="./assets/icons/google.svg" alt="">
+                Login with Google
+            </div>
+            <div class="item" id="github-login">
+                <img src="./assets/icons/github.svg" alt="">
+                Login with Github
+            </div>
+        </div>
+    </form>
+
+
+
+    <p class="desc">If you don't have an account, <a href="signup.html">Signup</a></p>
+
+</body>
+
+</html>

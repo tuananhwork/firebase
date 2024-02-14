@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0b60b0;
+  --black-color: #2a2a2a;
+  --blue-color: #0b60b0;
+  --light-blue-color: #40a2d8;
+  --beige-color: #f0edcf;
+  --gray-color: #666666;
+  --white-color: #ffffff;
+}
+
+@font-face {
+  font-family: 'ProtestRiot';
+  src: url(../fonts/ProtestRiot-Regular.ttf);
+}
+
+html {
+  font-family: 'ProtestRiot';
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: var(--black-color);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: var(--blue-color);
+  text-decoration: none;
+}
+
+input::placeholder,
+button {
+  font-family: 'ProtestRiot';
+}
